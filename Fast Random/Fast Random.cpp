@@ -30,7 +30,6 @@ bool mulSafe2(uint64_t a, uint64_t b)
 
 int main()
 {
-    //change
     unsigned int testSize = UINT32_MAX/100;
 
     std::vector<uint64_t> testDataA;
@@ -67,5 +66,5 @@ int main()
 
     std::cout << t1.duration << std::endl;
     std::cout << t2.duration << std::endl;
-    //std::cin.get();
+    std::cin.get();
 }
