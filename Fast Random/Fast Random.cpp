@@ -66,5 +66,5 @@ int main()
 
     std::cout << t1.duration << std::endl;
     std::cout << t2.duration << std::endl;
-    std::cin.get();
+    //std::cin.get();
 }
